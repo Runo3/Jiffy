@@ -266,7 +266,6 @@ select {
     padding-left: 3px;
     width: 40%;
     height: 25px;
-    background-color: #ffffff
 }
 
 /* Buttons */
@@ -354,6 +353,24 @@ select {
     align-items: center;
     width: 100%;
     height: 100%;
+}
+
+ /*Reset Password*/
+.section-reset-password {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.label-reset-password {
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    color: #BB86FC;
+}
+.row-reset-password {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
 }
 /* Date Select */
 /* Universal */
